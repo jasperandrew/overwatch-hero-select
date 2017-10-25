@@ -1,0 +1,35 @@
+.portrait [hero=mercy] { 
+    background-image: url("../img/hero-selected/mercy.png"); 
+    background-position: 4.7% 1.6%;
+}
+
+.portrait [hero=soldier-76] { 
+    background-image: url("../img/hero-selected/soldier-76.png"); 
+    background-position: 4.7% 3.2%;
+}
+
+.portrait [hero=sombra] {
+    background-image: url("../img/hero-selected/sombra.png");
+    background-position: 4.7% 3.3%;
+}
+
+.portrait [hero=tracer] { 
+    background-image: url("../img/hero-selected/tracer.png"); 
+    background-position: 4.7% 2%;
+}
+
+.portrait [hero=widowmaker] { 
+    background-image: url("../img/hero-selected/widowmaker.png"); 
+    background-position: 4.7% 1.4%;
+}
+
+.portrait [hero=winston] { 
+    background-image: url("../img/hero-selected/winston.png"); 
+    background-position: 4.7% 2%;
+}
+
+.hero-pose[hero=sombra] {
+    background: url("../img/hero-pose/sombra.png") no-repeat;
+    background-position: 103% -9%;
+    background-size: 90%;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch Hero Picker</title>
+    <link rel="stylesheet" href="css/overwatch.css">
+    <link rel="stylesheet" href="css/assets.css">
+    <script src="js/fittext.js"></script>
+    <script>
+        window.fitText( document.getElementById("test") );
+    </script>
+</head>
+<body ondragstart="return false;">
+    <div class="container">
+        <div class="game-info">
+            <div class="hero-pose" hero="sombra"></div>
+            <div class="game">
+                <div class="side">Attack</div>
+                <div class="map">King's Row</div>
+            </div>
+            <div class="character">
+                <div class="name">Sombra</div>
+                <svg class="info-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.22 64.65">
+                    <path class="inner" d="M48.11,13.95A18.38,18.38,0,1,0,66.49,32.33h0A18.38,18.38,0,0,0,48.11,13.95Zm0,32.38a3.6,3.6,0,1,1,3.6-3.6h0A3.6,3.6,0,0,1,48.11,46.33Zm0-10.43c-1.42,0-4.43-.37-4.43-9.3,0-8.08,3-9.3,4.43-9.3s4.43,1.23,4.43,9.3c0,8.93-3,9.29-4.43,9.29h0Z" transform="translate(0)"/>
+                    <path class="outer" d="M92.65,0H3.57A3.57,3.57,0,0,0,0,3.57v57.5a3.57,3.57,0,0,0,3.57,3.57H92.65a3.57,3.57,0,0,0,3.57-3.57V3.57A3.57,3.57,0,0,0,92.65,0ZM48.11,55.24A22.91,22.91,0,1,1,71,32.32,22.91,22.91,0,0,1,48.11,55.24h0Z" transform="translate(0)"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="countdown"></div>
+
+        <div class="selections">
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="sombra"></div>
+                    <div class="stars"></div>
+                    <div class="level">71</div>
+                </div>
+                <div class="player-info">
+                    <div class="name">Quazi</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="mercy"></div>
+                    <div class="stars"></div>
+                    <div class="level">7</div>
+                </div>
+                <div class="player-info">
+                    <div class="name">RedDragon</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="winston"></div>
+                    <div class="stars"></div>
+                    <div class="level">100</div>
+                </div>
+                <div class="player-info">
+                    <div id="test" class="name">bobbo</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="widowmaker"></div>
+                    <div class="stars"></div>
+                    <div class="level">71</div>
+                </div>
+                <div class="player-info">
+                    <div class="name">blerp</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="soldier-76"></div>
+                    <div class="stars"></div>
+                    <div class="level">71</div>
+                </div>
+                <div class="player-info">
+                    <div class="name">Prowo</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+
+            <div class="selection">
+                <div class="portrait">
+                    <div class="bg-hex"><span></span></div>
+                    <div class="hero" hero="tracer"></div>
+                    <div class="stars"></div>
+                    <div class="level">71</div>
+                </div>
+                <div class="player-info">
+                    <div class="name">Yosh</div>
+                    <div class="dropdown"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="hero-select">
+            <div class="role" role="offense">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-560 -500 1900 1900">
+                        <title>offense</title>
+                        <rect class="cls-1" y="830.96" width="204.1" height="108.3"/>
+                        <path class="cls-1" d="M-2833.91,130.43c-47.9,21.52-102,110.25-102,166.61V880.17h204.1V297C-2731.86,240.68-2785.31,154-2833.91,130.43Z" transform="translate(2935.96 -130.43)"/>
+                        <rect class="cls-1" x="608.12" y="830.96" width="204.1" height="108.3"/>
+                        <path class="cls-1" d="M-2225.78,130.43c-47.9,21.52-102,110.25-102,166.61V880.17h204.1V297C-2123.74,240.68-2177.19,154-2225.78,130.43Z" transform="translate(2935.96 -130.43)"/>
+                        <rect class="cls-1" x="304.06" y="830.96" width="204.1" height="108.3"/>
+                        <path class="cls-1" d="M-2529.85,130.43c-47.9,21.52-102,110.25-102,166.61V880.17h204.1V297C-2427.8,240.68-2481.25,154-2529.85,130.43Z" transform="translate(2935.96 -130.43)"/>
+                    </svg>
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/doomfist.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/genji.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/mccree.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/pharah.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/reaper.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/soldier-76.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/sombra.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/tracer.png">
+                </div>
+            </div>
+            <div class="role" role="defense">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-590 -500 1900 1900">
+                        <title>defense</title>
+                        <path class="cls-1" d="M-453.13-167.05h-25c-136.06,0-125-361-125-361H-959.21s11.11,361-125,361h-25a34.71,34.71,0,0,0-34.71,34.71V-25.43a34.71,34.71,0,0,0,34.71,34.71h656a34.71,34.71,0,0,0,34.71-34.71V-132.34A34.71,34.71,0,0,0-453.13-167.05Z" transform="translate(1143.87 913.32)"/>
+                        <path class="cls-1" d="M-976.91-598.85H-582.6a77.06,77.06,0,0,0,77.06-77.06v-189A48.42,48.42,0,0,0-554-913.32h-24.12a22.56,22.56,0,0,0-22.56,22.56v53.28a10.93,10.93,0,0,1-10.93,10.93h-63.17a10.93,10.93,0,0,1-10.93-10.93V-879a34.36,34.36,0,0,0-34.36-34.36h-120.1A34.36,34.36,0,0,0-874.52-879v41.48a10.93,10.93,0,0,1-10.93,10.93h-62.48a10.93,10.93,0,0,1-10.93-10.93v-53.28a22.56,22.56,0,0,0-22.56-22.56h-24.12A48.42,48.42,0,0,0-1054-864.9v189A77.06,77.06,0,0,0-976.91-598.85Z" transform="translate(1143.87 913.32)"/>
+                    </svg>
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/bastion.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/hanzo.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/junkrat.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/mei.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/torbjorn.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/widowmaker.png">
+                </div>
+            </div>
+            <div class="role" role="tank">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-560 -500 1900 1900">
+                        <title>tank</title>
+                        <path class="cls-1" d="M498.89,4C743,4,902.81,70.56,902.81,141.58V530.49C902.81,621,598.76,996,498.89,996S97.19,624.22,97.19,530.49V139.36C97.19,72.78,254.76,4,498.89,4Z" transform="translate(-97.19 -3.98)"/>
+                    </svg>
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/dva.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/orisa.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/reinhardt.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/roadhog.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/winston.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/zarya.png">
+                </div>
+            </div>
+            <div class="role" role="support">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-430 -420 1700 1700">
+                        <title>support</title>
+                        <path class="cls-1" d="M-960.88,803.81h-195.77a11.11,11.11,0,0,1-11.11-11.11V596.93a68,68,0,0,0-68-68h-179.1a68,68,0,0,0-68,68V792.7A11.11,11.11,0,0,1-1494,803.81H-1689.8a68,68,0,0,0-68,68v179.1a68,68,0,0,0,68,68H-1494a11.11,11.11,0,0,1,11.11,11.11v195.77a68,68,0,0,0,68,68h179.1a68,68,0,0,0,68-68V1130.08a11.11,11.11,0,0,1,11.11-11.11h195.77a68,68,0,0,0,68-68V871.84A68,68,0,0,0-960.88,803.81Z" transform="translate(1757.83 -528.9)"/>
+                    </svg>
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/ana.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/lucio.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/mercy.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/symmetra.png">
+                </div>
+                <div class="option">
+                    <img src="img/hero-icon/zenyatta.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="confirm-btn">
+            <button><span>SELECT</span></button>
+        </div>
+    </div>
+</body>
+</html>
